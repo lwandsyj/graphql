@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    //允许我们指定编译器将输出的目标 JavaScript 版本
+    "target": "es5",
+    //允许我们在编译的 JavaScript 代码中使用模块管理器。CommonJS 受支持并且是 Node.js 中的标准
+    "module": "commonjs",
+    // 必须启用的一个选项称为outDir，它指定编译步骤后输出的位置
+    "outDir": "./dist",
+    "allowJs": true,
+    //如果设置为true，则跳过默认库声明文件的类型检查
+    "skipLibCheck": true,
+    //允许我们将 ES6 模块编译为 CommonJS 模块
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    //启用严格类型检查选项的选项
+    "strict": true,
+    //设置为 时true，启用区分大小写的文件命名
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
